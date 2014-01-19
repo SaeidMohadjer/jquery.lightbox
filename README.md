@@ -3,6 +3,16 @@ jquery.lightbox
 
 A lightbox plugin for jQuery
 
+<h2>Examples</h2>
+<ul>
+	<li><a href="lightbox_api.php">API</a></li>
+	<li><a href="lightbox.php">Lightbox (Modal)</a></li>
+	<li><a href="lightbox_onload.php">Lightbox (Modal) on page load</a></li>
+	<li><a href="lightbox_modeless.php">Lightbox (Modeless)</a></li>
+	<li><a href="lightbox_modeless_with_curtain.php">Lightbox (Modeless with curtain)</a></li>
+	<li><a href="lightbox_fixed.php">Fixed position</a></li>
+</ul>
+
 <p>Popup's z-index should be set higher than all other element's z-index, otherwise those elements will not be covered by overlay curtain. Curtain's z-index is automatically set by js by deducting one from popup's z-index.</p>
 <table class="api">
 	<tr><th>Properties</th><th>Values: default [optional]</th><th>Description</th></tr>

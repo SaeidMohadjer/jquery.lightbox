@@ -1,4 +1,11 @@
-(function($) {		
+/**
+* jquery.lightbox.js v1.0.0 - jQuery plugin to show popups over a lightbox
+* https://github.com/SaeidMohadjer/jquery.lightbox/
+* Copyright 2014 Saeid Mohadjer
+* Released under the MIT license - http://opensource.org/licenses/MIT
+*/
+
+;(function($) {		
 	$.fn.lightbox = function( pluginOptions ) {	
 		var defaultOptions = {
 			modal : false,

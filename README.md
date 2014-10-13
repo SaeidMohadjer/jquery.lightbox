@@ -16,7 +16,10 @@ A lightbox plugin for jQuery
 
 <h3>Options</h3>
 <ul>
-	<li><strong>modal</strong>: false (default), true</li>
+	<li>
+		<strong>modal</strong>: false (default), true
+		<p>If model is true, lightbox can not be closed by clicking popup or lightbox curtain. It can only closed by calling lightbox's public method close().
+	</li>
 	<li><strong>has_curtain</strong>: true (default), false</li>
 	<li><strong>relative_to</strong>: 'window' (default), 'parent'</li>
 	<li><strong>top</strong>: center (default), any integer value</li>

@@ -6,10 +6,10 @@ A lightbox plugin for jQuery
 <h3>Examples</h3>
 <ul>
 	<li><a href="http://repos.saeidmohadjer.com/jquery.lightbox/demo/lightbox.html">Default lightbox</a></li>
+	<li><a href="http://repos.saeidmohadjer.com/jquery.lightbox/demo/lightbox_fixed.html">Lightbox with position fixed popup</a></li>
+	<li><a href="http://repos.saeidmohadjer.com/jquery.lightbox/demo/lightbox_no_curtain.html">Lightbox without curtain</a></li>
 	<li><a href="http://repos.saeidmohadjer.com/jquery.lightbox/demo/lightbox_modal.html">Modal lightbox</a></li>
-	<li><a href="http://repos.saeidmohadjer.com/jquery.lightbox/demo/lightbox_modeless.html">Lightbox without curtain</a></li>
-	<li><a href="http://repos.saeidmohadjer.com/jquery.lightbox/demo/lightbox_fixed.html">Lightbox with fixed popup</a></li>
-	<li><a href="http://repos.saeidmohadjer.com/jquery.lightbox/demo/lightbox_onload.html">Lightbox on page load</a></li>
+	<li><a href="http://repos.saeidmohadjer.com/jquery.lightbox/demo/lightbox_onload.html">Lightbox shows on page load</a></li>
 </ul>
 
 <p>Note: Popup's z-index should be set higher than all other element's z-index, otherwise those elements will not be covered by overlay curtain. Curtain's z-index is automatically set by js by deducting one from popup's z-index.</p>

@@ -25,10 +25,10 @@
 			}
 		</style>
 		<script>
-			$(function() {
+			$(document).ready(function() {
 				var demo;
 
-				$('button').click(function() {
+				$('body > button').click(function() {
 					demo = $('.popup').lightbox({
 						top: 0,
 						left: 0,
@@ -51,7 +51,7 @@
 	</head>
 	<body>
 		<h3>Lightbox without curtain and with popup positioned relative to parent</h3>
-		<p><button>Show popup</button></p>
+		<button>Show popup</button>
 		<p>Lorem ipsum dolor sit amet, ipsum ait Cumque persequatur sic. Ite in fuerat se vero quo sanctis venias in deinde duas particularis mortem sua in lucem. Illa benignissime vi aureo in fuerat accidens quam cara die! Hellenicus dixisset alia qui non ait in deinde vero rex Stranguillio eam ad nomine. Qui a his carpens introivit gubernum defunctam sed quod ait.</p>
 		<div>
 			<div class="popup">
